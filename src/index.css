@@ -59,3 +59,30 @@ body {
   color: #c2e9e0;
   font-size: 1rem;
 }
+
+table {
+  /* width: 50%; */
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead {
+  font-size: 0.7rem;
+  /* color: #83e6c0; */
+  background: transparent; /* optional, keep background clear */
+}
+
+thead th {
+  color: #90ee90; /* light green */
+  text-align: center;
+  padding: 1rem 0.5rem;
+  color: #83e6c0;
+  /* font-weight: 600; */
+  /* font-size: 1rem; */
+  /* letter-spacing: 0.5px; */
+  /* white-space: nowrap; */
+}
+
+thead th {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
